@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Christina Li</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160609672-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160609672-1');
+    </script>
+
+  </head>
+
+
+  <body>
+    <a class = "skip" href="#about_page">Skip to Main Content</a>
+
+    <header>
+      <img src="images/logo.png" alt="personal logo" id = "logo">
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html">Data Projects</a></li> 
+          <li class="nav_item"><a href="uxprojects.html">UX Projects</a></li>
+          <li class="nav_item"><a href="photography.html">Photography</a></li>
+          <li class="nav_item" id="active_page"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+  </header>
+
+
+  <main id="about_page">
+
+    <div id="about_container">
+
+    <div id="about_pic">
+    <img src="images/about.png" alt="Picture of me sitting in front of wall" id="aboutpic"> 
+    </div>
+
+    <div id="about_blurb">
+    <h1>Hi! I'm Christina Li.</h1>
+
+    <p>I’m currently a Junior studying Data Analysis and UX Design at the University of Michigan’s School of Information.</p>
+    <p>I’m exploring how the ever-increasing amount of data can be used to identify relevant questions for stakeholders and produce answers grounded in empirical evidence and how understanding user-centered design can lead to creating compelling and aesthetically pleasing interfaces and products.</p>
+    <p>Outside of school, you’ll find me taking photos, exploring art museums, and traveling with friends.</p>
+    </div>
+
+  </div>
+
+
+  <!-- contact form -->
+  <form action="https://formspree.io/moqlepjg" method="POST">
+    <fieldset>
+       <legend>Feel free to contact me!</legend>
+       <div class = "contact">
+          <label for ="first_name">First Name:</label><input type="text" id ="first_name" name="first_name" required/> 
+          <label for ="last_name">Last Name:</label><input type="text" id ="last_name" name="last_name" required/> 
+          <label for ="email">Email:</label><input type="text" id ="email" name="email" required/>
+       </div>
+
+       <div>
+        <label for ="message">Message: </label><textarea id = "message"></textarea>
+       </div>
+       
+       <div>
+          <input type="submit" value="Submit"/>
+          <input type="reset" value="Reset"/>
+       </div>
+       </fieldset>
+       </form>
+
+       <!-- end contact form -->
+
+       <br>
+       <br>
+
+      <!-- new text animation -->
+      <div class="wrapper">
+        <div class="clip-text clip-text_one">THANKS FOR READING!</div>
+      </div>
+      <!-- end text animation -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+  
+
+    <footer>
+        <div class="media">
+            <ul>
+              
+              <li><a href="https://www.linkedin.com/in/christinagli/" class = "footer_icon" aria-label="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/christinali109" class = "footer_icon" aria-label="Github" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.facebook.com/christina.li.3367" class = "footer_icon" aria-label="Facebook" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+    
+            </ul>
+          </div>
+    </footer>
+  </main>
+  </body>
+</html>
