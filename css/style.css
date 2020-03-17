@@ -838,3 +838,39 @@ p {
   margin-left: 70px;
   margin-right: 70px;
 }
+
+/* callout message */
+.callout {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+  font-family: 'Avenir', sans-serif;
+}
+
+.callout-header {
+  padding: 15px 15px;
+  background: #be5c6b;
+  font-size: 24px;
+  color: white;
+}
+
+.callout-container {
+  padding: 10px;
+  background-color: white;
+  /* color: black; */
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
