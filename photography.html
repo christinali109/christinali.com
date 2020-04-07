@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
 
+    <link rel="stylesheet" type="text/css/" href="dist/css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
     <title>Christina Li</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -48,11 +51,11 @@
     <div id="photos_container">
 
         <div id="square1">
-            <img src="images/square1.jpg" alt="picture of me behind flowers" id="image1"/>
+          <a href="images/square1.jpg" data-lightbox="image" data-title="Girl with flowers" data-alt="Lightbox girl with flowers"><img src="images/square1.jpg" alt="picture of me behind flowers" id="image1"/></a>
         </div>
 
         <div id="square2">
-            <img src="images/square2.jpg" alt="picture of colorful lights and shadows" id="image2"/>
+          <a href="images/square2.jpg" data-lightbox="image" data-title="Colorful Lights" data-alt="Colorful lights and shadows"><img src="images/square2.jpg" alt="picture of colorful lights and shadows" id="image2"/></a>
         </div>
 
         <div id="square3">
@@ -84,11 +87,8 @@
         </div>
 
     </div>
-    
 
   </main>
-
-
 
     <footer>
       <div class="media">
@@ -102,6 +102,9 @@
       </div>
     
     </footer>
+
+    <script src="dist/js/lightbox.js"></script>
+
   </body>
 </html>
 
